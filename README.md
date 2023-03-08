@@ -1,0 +1,1 @@
+Notion about shell basic

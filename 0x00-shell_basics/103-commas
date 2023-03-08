@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | sort -k1,1 -t. | sed s/^/.// | sed s/$/,/ | tr n   | sed s/,$/n/
+ls -a --group-directories-first -pm -x -1

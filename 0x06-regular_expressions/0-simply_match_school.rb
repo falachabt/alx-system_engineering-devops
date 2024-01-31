@@ -1,10 +1,4 @@
 #!/usr/bin/env ruby
 
-# Accept one argument from the command line
-input_string = ARGV[0]
+puts ARGV[0].scan(/School/).join
 
-# Use regular expression to match "School" as a standalone word
-result = input_string.scan(/\bSchool\b/).join
-
-# Print the result
-puts result

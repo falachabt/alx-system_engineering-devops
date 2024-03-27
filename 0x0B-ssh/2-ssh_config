@@ -1,8 +1,6 @@
-# Config file
-Host *
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
+# connect to a server without typing a password
+Host 395187-web-01
+User ubuntu
+HostName 35.231.100.106
+IdentityFile ~/.ssh/holberton
+PasswordAuthentication no
